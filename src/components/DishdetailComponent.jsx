@@ -63,9 +63,11 @@ class Dishdetail extends Component {
 		const cmnts = this.renderComments(dish.comments);
 		
 		return(
-			<div className = "row">
-				{dishDesc}
-				{cmnts}
+            <div className = "container">
+                <div className = "row">
+                    {dishDesc}
+                    {cmnts}
+                </div>
 			</div>
 		);
 	}
